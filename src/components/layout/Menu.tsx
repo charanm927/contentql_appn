@@ -15,7 +15,7 @@ import { TbHelpCircle } from "react-icons/tb";
 
 export default function Menu() {
   const router = useRouter();
-  const parser = new DOMParser();
+  // const parser = new DOMParser();
 
   const product = [
     {
