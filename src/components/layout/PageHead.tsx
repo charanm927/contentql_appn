@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const PageHead = ({ headTitle }) => {
+const PageHead = ({ headTitle }: { headTitle?: string }) => {
   return (
     <>
       <Head>
