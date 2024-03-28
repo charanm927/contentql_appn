@@ -27,7 +27,7 @@ export default function Banner13_7() {
                       href="#hero-17"
                       className="btn r-04 btn--theme hover--tra-white"
                     >
-                      Get srarted - it's free
+                      Get srarted - it&apos;s free
                     </Link>
                   </div>
                 </div>{" "}

@@ -59,7 +59,7 @@ export default function Lnk2_1() {
                     href="#features-2"
                     className="btn btn-sm r-04 btn--tra-black hover--theme"
                   >
-                    What's possible?
+                    What&apos;s possible?
                   </Link>
                 </div>{" "}
                 {/* END TEXT BOX */}

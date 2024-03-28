@@ -111,7 +111,7 @@ export default function LoginView2() {
                           {/* Sign Up Link */}
                           <div className="col-md-12">
                             <p className="create-account text-center">
-                              Don't have an account?{" "}
+                              Don&apos;t have an account?{" "}
                               <Link href="/signup-2" className="color--theme">
                                 Sign up
                               </Link>

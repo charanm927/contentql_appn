@@ -22,7 +22,7 @@ export default function Banner7_7() {
                         href="/signup-1"
                         className="btn r-04 btn--theme hover--theme"
                       >
-                        Get srarted - it's free
+                        Get srarted - it&apos;s free
                       </Link>
                       <Link
                         href="/pricing-1"

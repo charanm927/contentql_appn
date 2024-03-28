@@ -18,7 +18,7 @@ export default function LoginView1() {
                     <div className="register-form-title">
                       <h3 className="s-32 w-700">Log in to Martex</h3>
                       <p className="p-md">
-                        Don't have an account?{" "}
+                        Don&apos;t have an account?{" "}
                         <Link href="/signup-1" className="color--theme">
                           Sign up
                         </Link>

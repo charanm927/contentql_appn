@@ -69,10 +69,10 @@ export default function Ct02_2() {
                       Design Your Masterpiece: Begin or Personalize
                     </h5>
                     <p className="mb-0">
-                      Your digital canvas awaits your touch. Whether you're an
-                      artist starting with a blank slate or a curator enhancing
-                      existing beauty, our platform empowers you to shape your
-                      vision.
+                      Your digital canvas awaits your touch. Whether you&apos;re
+                      an artist starting with a blank slate or a curator
+                      enhancing existing beauty, our platform empowers you to
+                      shape your vision.
                     </p>
                   </div>
                 </div>{" "}

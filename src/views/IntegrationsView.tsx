@@ -411,7 +411,7 @@ export default function IntegrationsView() {
                           href="/signup-1"
                           className="btn r-04 btn--theme hover--tra-white"
                         >
-                          Get srarted - it's free
+                          Get srarted - it&apos;s free
                         </Link>
                         {/* Button Text */}
                         <p className="p-sm btn-txt ico-15">

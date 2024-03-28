@@ -175,7 +175,7 @@ export default function HelpCenterView() {
                             {/* Question */}
                             <div className="accordion-thumb">
                               <h5 className="s-22 w-700">
-                                What's inside the package?
+                                What&apos;s inside the package?
                               </h5>
                             </div>
                             {/* Answer */}
@@ -650,7 +650,8 @@ export default function HelpCenterView() {
                             {/* Question */}
                             <div className="accordion-thumb">
                               <h5 className="s-22 w-700">
-                                I didn't receive the license key after purchased
+                                I didn&apos;t receive the license key after
+                                purchased
                               </h5>
                             </div>
                             {/* Answer */}
@@ -1087,7 +1088,7 @@ export default function HelpCenterView() {
                       <h3 className="s-40 w-700">Still need help?</h3>
                       {/* Text */}
                       <p className="p-lg">
-                        Don't hesitate to contact us about any question you
+                        Don&apos;t hesitate to contact us about any question you
                         might be interested in
                       </p>
                       {/* Button */}

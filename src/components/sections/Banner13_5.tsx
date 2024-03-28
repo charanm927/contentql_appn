@@ -28,7 +28,7 @@ export default function Banner13_5() {
                       data-bs-toggle="modal"
                       data-bs-target="#modal-3"
                     >
-                      Get srarted - it's free
+                      Get srarted - it&apos;s free
                     </Link>
                   </div>
                 </div>{" "}

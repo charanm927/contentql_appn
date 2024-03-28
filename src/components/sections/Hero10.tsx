@@ -32,7 +32,7 @@ export default function Hero10() {
                   Requires macOS 10.13+ or Windows 10+ 64bit.
                   <span className="txt-data">
                     Current version 2.18.03{" "}
-                    <Link href="/download">What's New?</Link>
+                    <Link href="/download">What&apos;s New?</Link>
                   </span>
                 </p>
               </div>

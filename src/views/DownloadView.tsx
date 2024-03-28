@@ -61,7 +61,9 @@ export default function DownloadView() {
                           </p>
                         </li>
                         <li className="list-item">
-                          <p>Fixed Bug: "Euismod purus and blandit"</p>
+                          <p>
+                            Fixed Bug: &ldquo;Euismod purus and blandit&rdquo;
+                          </p>
                         </li>
                         <li className="list-item">
                           <p>Fixed Crash#4680682692</p>
@@ -300,7 +302,7 @@ export default function DownloadView() {
                       <h3 className="s-40 w-700">Any questions?</h3>
                       {/* Text */}
                       <p className="p-lg">
-                        Don't hesitate to contact us about any question you
+                        Don&apos;t hesitate to contact us about any question you
                         might be interested in
                       </p>
                       {/* Button */}

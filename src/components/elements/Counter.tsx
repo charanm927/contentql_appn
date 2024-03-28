@@ -45,7 +45,7 @@ export default function Counter({ end, duration }: Props) {
     return () => {
       clearInterval(interval);
     };
-  }, [end, increment]);
+  }, [end, increment, duration]);
 
   const startCount = () => {
     setCount(0);

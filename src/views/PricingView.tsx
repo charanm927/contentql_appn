@@ -79,7 +79,7 @@ export default function PricingView() {
                           href="#"
                           className="pt-btn btn r-04 btn--theme hover--theme"
                         >
-                          Get srarted - it's free
+                          Get srarted - it&apos;s free
                         </Link>
                         <p className="p-sm btn-txt text-center color--grey">
                           No credit card required
@@ -775,7 +775,7 @@ export default function PricingView() {
                       <div className="banner-1-txt color--white">
                         {/* Title */}
                         <h2 className="s-45 w-700">
-                          Give it a try, it's free!
+                          Give it a try, it&apos;s free!
                         </h2>
                         {/* Text */}
                         <p className="p-xl">
@@ -786,7 +786,7 @@ export default function PricingView() {
                           href="/signup-1"
                           className="btn r-04 btn--theme hover--tra-white"
                         >
-                          Get srarted - it's free
+                          Get srarted - it&apos;s free
                         </Link>
                         {/* Button Text */}
                         <p className="p-sm btn-txt ico-15 o-85">

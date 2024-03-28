@@ -112,7 +112,7 @@ export default function Menu() {
           </Link>
           <ul className="sub-menu w-20">
             {product.map((navitem) => (
-              <li className="fst-li">
+              <li key={navitem.title} className="fst-li">
                 <Link href={navitem.path}>
                   <div className="navbar-icon">
                     <div className="icon">{navitem.icon}</div>
@@ -146,7 +146,7 @@ export default function Menu() {
                 {/* MEGAMENU LINKS */}
                 <ul className="col-md-12 col-lg-6 link-list">
                   {Resources1.map((resource) => (
-                    <li className="fst-li">
+                    <li key={resource.title} className="fst-li">
                       <Link href={resource.path}>
                         <div className="navbar-icon">
                           <div className="icon">{resource.icon}</div>
@@ -165,7 +165,7 @@ export default function Menu() {
                 </ul>
                 <ul className="col-md-12 col-lg-6 link-list">
                   {resources2.map((navitem) => (
-                    <li className="fst-li">
+                    <li key={navitem.title} className="fst-li">
                       <Link href={navitem.path}>
                         <div className="navbar-icon">
                           <div className="icon">{navitem.icon}</div>

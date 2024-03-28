@@ -317,9 +317,9 @@ function TemplateSearch() {
                       ) : (
                         <div className="template-not-found">
                           <p>
-                            We couldn't find what you're looking for, but don't
-                            worry you can begin anew with the options available
-                            below."
+                            &ldquo;We couldn&apos;t find what you&apos;re
+                            looking for, but don&apos;t worry you can begin anew
+                            with the options available below.&rdquo;
                           </p>
                         </div>
                       )}

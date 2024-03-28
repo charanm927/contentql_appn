@@ -54,7 +54,7 @@ export default function StorySlider() {
         <div className="swiper-button-next"></div>
         {/* TESTIMONIAL #1 */}
         {storyTemplates.map((template) => (
-          <SwiperSlide className="review-card ">
+          <SwiperSlide key={template.id} className="review-card ">
             <div key={template.id} id="l-1">
               <div className="hover-overlay1 card-view">
                 <Image

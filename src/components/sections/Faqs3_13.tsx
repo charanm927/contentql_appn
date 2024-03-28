@@ -41,7 +41,7 @@ export default function Faqs3_13() {
                   <div className="question mb-35 wow fadeInUp">
                     {/* Question */}
                     <h5 className="s-22 w-700">
-                      <span>2.</span> What's inside the package?
+                      <span>2.</span> What&apos;s inside the package?
                     </h5>
                     {/* Answer */}
                     <p className="color--grey">

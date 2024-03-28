@@ -518,8 +518,9 @@ export default function ExpertsView() {
                         </h2>
                         {/* Text */}
                         <p className="p-lg">
-                          We're constantly looking for talented people to join
-                          our team. Don't hesitate to get in touch with us
+                          We&apos;re constantly looking for talented people to
+                          join our team. Don&apos;t hesitate to get in touch
+                          with us
                         </p>
                         {/* Button */}
                         <Link
@@ -661,7 +662,7 @@ export default function ExpertsView() {
                       <div className="banner-4-txt text-center">
                         {/* Title */}
                         <h2 className="s-46 w-700">
-                          We can't wait to meet you
+                          We can&apos;t wait to meet you
                         </h2>
                         {/* Button */}
                         <Link
