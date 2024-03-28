@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Ct02_34() {
   return (
     <>
@@ -8,7 +10,7 @@ export default function Ct02_34() {
             {/* IMAGE BLOCK */}
             <div className="col-md-6">
               <div className="img-block left-column wow fadeInRight">
-                <img
+                <Image
                   className="img-fluid"
                   src="/images/img-11.png"
                   alt="content-image"

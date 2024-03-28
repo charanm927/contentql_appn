@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Projects1_3() {
@@ -30,7 +31,7 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
                         src="/images/projects/project-05.jpg"
                         alt="project-preview"
@@ -56,7 +57,7 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
                         src="/images/projects/project-02.jpg"
                         alt="project-preview"
@@ -82,7 +83,7 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
                         src="/images/projects/project-03.jpg"
                         alt="project-preview"
@@ -108,7 +109,7 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
                         src="/images/projects/project-04.jpg"
                         alt="project-preview"

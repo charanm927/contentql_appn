@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Reviews2_7() {
   return (
     <>
@@ -45,7 +47,7 @@ export default function Reviews2_7() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
+                        <Image
                           src="/images/review-author-1.jpg"
                           alt="review-avatar"
                         />
@@ -87,7 +89,7 @@ export default function Reviews2_7() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
+                        <Image
                           src="/images/review-author-2.jpg"
                           alt="review-avatar"
                         />
@@ -129,7 +131,7 @@ export default function Reviews2_7() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
+                        <Image
                           src="/images/review-author-5.jpg"
                           alt="review-avatar"
                         />
@@ -172,7 +174,7 @@ export default function Reviews2_7() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
+                        <Image
                           src="/images/review-author-8.jpg"
                           alt="review-avatar"
                         />

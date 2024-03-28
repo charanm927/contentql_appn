@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Integrations2_1() {
@@ -29,7 +30,7 @@ export default function Integrations2_1() {
                 <Link href="#" className="in_tool it-1 r-12 wow fadeInUp">
                   {/* Logo */}
                   <div className="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
-                    <img
+                    <Image
                       className="img-fluid"
                       src="/images/png_icons/tool-1.png"
                       alt="brand-logo"
@@ -45,7 +46,7 @@ export default function Integrations2_1() {
                 <Link href="#" className="in_tool it-2 r-12 wow fadeInUp">
                   {/* Logo */}
                   <div className="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
-                    <img
+                    <Image
                       className="img-fluid"
                       src="/images/png_icons/tool-2.png"
                       alt="brand-logo"
@@ -61,7 +62,7 @@ export default function Integrations2_1() {
                 <Link href="#" className="in_tool it-3 r-12 wow fadeInUp">
                   {/* Logo */}
                   <div className="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
-                    <img
+                    <Image
                       className="img-fluid"
                       src="/images/png_icons/tool-3.png"
                       alt="brand-logo"
@@ -77,7 +78,7 @@ export default function Integrations2_1() {
                 <Link href="#" className="in_tool it-4 r-12 wow fadeInUp">
                   {/* Logo */}
                   <div className="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
-                    <img
+                    <Image
                       className="img-fluid"
                       src="/images/png_icons/tool-4.png"
                       alt="brand-logo"
@@ -93,7 +94,7 @@ export default function Integrations2_1() {
                 <Link href="#" className="in_tool it-5 r-12 wow fadeInUp">
                   {/* Logo */}
                   <div className="in_tool_logo ico-65 bg--white-100 block-shadow r-12">
-                    <img
+                    <Image
                       className="img-fluid"
                       src="/images/png_icons/tool-5.png"
                       alt="brand-logo"

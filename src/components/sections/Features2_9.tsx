@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Features2_9() {
   return (
     <>
@@ -24,12 +26,12 @@ export default function Features2_9() {
                 <div className="fbox-2 fb-1 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/f_04.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/f_04_dark.png"
                       alt="feature-image"
@@ -51,12 +53,12 @@ export default function Features2_9() {
                 <div className="fbox-2 fb-2 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/f_08.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/f_08_dark.png"
                       alt="feature-image"
@@ -78,12 +80,12 @@ export default function Features2_9() {
                 <div className="fbox-2 fb-3 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/f_03.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/f_03_dark.png"
                       alt="feature-image"

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
@@ -539,37 +540,37 @@ export default function PricingView() {
                       {/* Payment Icons */}
                       <ul className="payment-icons ico-45 mt-25">
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/visa.png"
                             alt="payment-icon"
                           />
                         </li>
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/am.png"
                             alt="payment-icon"
                           />
                         </li>
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/discover.png"
                             alt="payment-icon"
                           />
                         </li>
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/paypal.png"
                             alt="payment-icon"
                           />
                         </li>
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/jcb.png"
                             alt="payment-icon"
                           />
                         </li>
                         <li>
-                          <img
+                          <Image
                             src="/images/png_icons/shopify.png"
                             alt="payment-icon"
                           />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero11() {
@@ -35,7 +36,7 @@ export default function Hero11() {
             {/* HERO IMAGE */}
             <div className="col-md-6">
               <div className="hero-11-img text-center wow fadeInLeft">
-                <img
+                <Image
                   className="img-fluid"
                   src="/images/hero-11-img.png"
                   alt="hero-image"

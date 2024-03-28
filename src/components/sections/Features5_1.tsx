@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Features5_1() {
   return (
     <>
@@ -34,12 +36,12 @@ export default function Features5_1() {
                   </div>
                   {/* Image */}
                   <div className="fbox-5-img order-first order-md-2">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/f_06.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/f_06_dark.png"
                       alt="feature-image"
@@ -53,12 +55,12 @@ export default function Features5_1() {
                 <div className="fbox-5 fb-2 bg--white-400 r-16 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-5-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/f_04.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/f_04_dark.png"
                       alt="feature-image"

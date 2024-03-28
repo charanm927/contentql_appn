@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Rating1_1() {
   return (
     <>
@@ -21,12 +23,12 @@ export default function Rating1_1() {
                 <div id="rb-1-1" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/brand-21.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/brand-21-white.png"
                       alt="feature-image"
@@ -48,12 +50,12 @@ export default function Rating1_1() {
                 <div id="rb-1-2" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/brand-22.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/brand-22-white.png"
                       alt="feature-image"
@@ -75,12 +77,12 @@ export default function Rating1_1() {
                 <div id="rb-1-3" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
                       src="/images/brand-23.png"
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
                       src="/images/brand-23-white.png"
                       alt="feature-image"

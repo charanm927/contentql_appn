@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function SignUpView1() {
@@ -29,7 +30,7 @@ export default function SignUpView1() {
                     {/* Google Button */}
                     <div className="col-md-12">
                       <Link href="#" className="btn btn-google ico-left">
-                        <img
+                        <Image
                           src="/images/png_icons/google.png"
                           alt="google-icon"
                         />{" "}

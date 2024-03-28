@@ -1,5 +1,6 @@
 // Templates.jsx
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { LiaPlusCircleSolid } from "react-icons/lia";
@@ -76,7 +77,7 @@ function TemplatesView() {
                     data-wow-delay="0.5s"
                   >
                     <div className="hover-overlay card-view">
-                      <img
+                      <Image
                         className="img-fluid"
                         src={template.backgroundImage}
                         alt="layout-preview"
