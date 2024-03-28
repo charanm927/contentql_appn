@@ -2,7 +2,10 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 // import "../../node_modules/react-modal-video/css/modal-video.css";
 
-export default function VideoPopup({ style }) {
+interface Props {
+  style: number;
+}
+export default function VideoPopup({ style }: Props) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -58,7 +61,7 @@ export default function VideoPopup({ style }) {
 
       <ModalVideo
         channel="youtube"
-        autoplay
+        youtube={{ autoplay: 1 }}
         isOpen={isOpen}
         videoId="vfhzo499OeA"
         onClose={() => setOpen(false)}

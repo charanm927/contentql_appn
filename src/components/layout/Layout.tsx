@@ -8,6 +8,22 @@ import Footer3 from "./footer/Footer3";
 import Header1 from "./header/Header1";
 import Header2 from "./header/Header2";
 
+interface Props {
+  headerStyle?: number;
+  footerStyle?: number;
+  headTitle?: string;
+  breadcrumbTitle?: string;
+  children?: React.ReactNode;
+  headerCls?: string;
+}
+
+declare global {
+  interface Window {
+    wowDesktop: any;
+    wowMobile: any;
+  }
+}
+
 export default function Layout({
   headerStyle,
   footerStyle,
@@ -15,8 +31,8 @@ export default function Layout({
   breadcrumbTitle,
   children,
   headerCls,
-}) {
-  const [scroll, setScroll] = useState(0);
+}: Props) {
+  const [scroll, setScroll] = useState(false);
   const [isMobileMenu, setMobileMenu] = useState(false);
 
   const handleMobileMenu = () => {

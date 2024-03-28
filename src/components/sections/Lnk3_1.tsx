@@ -1,4 +1,3 @@
-import Link from "next/link";
 import VideoPopup from "../elements/VidepPopup";
 export default function Lnk3_1() {
   return (
