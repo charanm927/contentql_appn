@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import CounterUp from "../components/elements/CounterUp";
 import VideoPopup from "../components/elements/VidepPopup";
@@ -51,7 +50,7 @@ export default function AboutUsView() {
                   <div className="text-end">
                     {/* IMAGE-1 */}
                     <div className="about-2-img a-2-1 r-12">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/a2-1.jpg"
                         alt="about-image"
@@ -59,7 +58,7 @@ export default function AboutUsView() {
                     </div>
                     {/* IMAGE-2 */}
                     <div className="about-2-img a-2-2 r-12">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/a2-2.jpg"
                         alt="about-image"
@@ -72,7 +71,7 @@ export default function AboutUsView() {
                 <div className="col-md-7">
                   {/* IMAGE-3 */}
                   <div className="about-2-img a-2-3 r-12">
-                    <Image
+                    <img
                       className="img-fluid"
                       src="/images/a2-3.jpg"
                       alt="about-image"
@@ -102,7 +101,7 @@ export default function AboutUsView() {
                     {/* IMAGE-4 */}
                     <div className="col-md-5 col-lg-6">
                       <div className="about-2-img a-2-4 r-12">
-                        <Image
+                        <img
                           className="img-fluid"
                           src="/images/a2-4.jpg"
                           alt="about-image"
@@ -299,7 +298,7 @@ export default function AboutUsView() {
                     {/* Play Icon */}
                     <VideoPopup style={2} />
                     {/* Preview Image */}
-                    <Image
+                    <img
                       className="img-fluid r-20"
                       src="/images/img-17.jpg"
                       alt="video-preview"
@@ -618,7 +617,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-1.jpg"
                             alt="team-member-foto"
@@ -642,7 +641,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-2.jpg"
                             alt="team-member-foto"
@@ -666,7 +665,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-3.jpg"
                             alt="team-member-foto"
@@ -688,7 +687,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-4.jpg"
                             alt="team-member-foto"
@@ -712,7 +711,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-5.jpg"
                             alt="team-member-foto"
@@ -736,7 +735,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-6.jpg"
                             alt="team-member-foto"
@@ -760,7 +759,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-7.jpg"
                             alt="team-member-foto"
@@ -784,7 +783,7 @@ export default function AboutUsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <Image
+                          <img
                             className="img-fluid"
                             src="/images/team-13.jpg"
                             alt="team-member-foto"
@@ -865,7 +864,7 @@ export default function AboutUsView() {
                     {/* IMAGE BLOCK */}
                     <div className="col-md-6 order-first order-md-2">
                       <div className="img-block right-column wow fadeInLeft">
-                        <Image
+                        <img
                           className="img-fluid"
                           src="/images/img-08.png"
                           alt="content-image"
@@ -891,7 +890,7 @@ export default function AboutUsView() {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6">
                   <div className="img-block left-column wow fadeInRight">
-                    <Image
+                    <img
                       className="img-fluid"
                       src="/images/img-07.png"
                       alt="content-image"
@@ -967,7 +966,7 @@ export default function AboutUsView() {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 col-lg-7 order-first order-md-2">
                   <div className="img-block right-column wow fadeInLeft">
-                    <Image
+                    <img
                       className="img-fluid"
                       src="/images/img-14.png"
                       alt="content-image"
@@ -1024,7 +1023,7 @@ export default function AboutUsView() {
                         <div className="author-data clearfix">
                           {/* Avatar */}
                           <div className="review-avatar">
-                            <Image
+                            <img
                               src="/images/review-author-1.jpg"
                               alt="review-avatar"
                             />
@@ -1064,7 +1063,7 @@ export default function AboutUsView() {
                         <div className="author-data clearfix">
                           {/* Avatar */}
                           <div className="review-avatar">
-                            <Image
+                            <img
                               src="/images/review-author-2.jpg"
                               alt="review-avatar"
                             />
@@ -1104,7 +1103,7 @@ export default function AboutUsView() {
                         <div className="author-data clearfix">
                           {/* Avatar */}
                           <div className="review-avatar">
-                            <Image
+                            <img
                               src="/images/review-author-5.jpg"
                               alt="review-avatar"
                             />
@@ -1143,7 +1142,7 @@ export default function AboutUsView() {
                         <div className="author-data clearfix">
                           {/* Avatar */}
                           <div className="review-avatar">
-                            <Image
+                            <img
                               src="/images/review-author-8.jpg"
                               alt="review-avatar"
                             />
@@ -1191,14 +1190,14 @@ export default function AboutUsView() {
                       {/* Brand Logo */}
                       <div className="rbox-1-img">
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid light-theme-img"
                             src="/images/brand-21.png"
                             alt="brand-logo"
                           />
                         </Link>
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid dark-theme-img"
                             src="/images/brand-21-white.png"
                             alt="brand-logo"
@@ -1222,14 +1221,14 @@ export default function AboutUsView() {
                       {/* Brand Logo */}
                       <div className="rbox-1-img">
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid light-theme-img"
                             src="/images/brand-22.png"
                             alt="brand-logo"
                           />
                         </Link>
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid dark-theme-img"
                             src="/images/brand-22-white.png"
                             alt="brand-logo"
@@ -1253,14 +1252,14 @@ export default function AboutUsView() {
                       {/* Brand Logo */}
                       <div className="rbox-1-img">
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid light-theme-img"
                             src="/images/brand-23.png"
                             alt="brand-logo"
                           />
                         </Link>
                         <Link href="#">
-                          <Image
+                          <img
                             className="img-fluid dark-theme-img"
                             src="/images/brand-23-white.png"
                             alt="brand-logo"
@@ -1309,7 +1308,7 @@ export default function AboutUsView() {
                   <div id="bp-1-1" className="blog-post wow fadeInUp">
                     {/* BLOG POST IMAGE */}
                     <div className="blog-post-img mb-35">
-                      <Image
+                      <img
                         className="img-fluid r-16"
                         src="/images/blog/post-8-img.jpg"
                         alt="blog-post-image"
@@ -1359,7 +1358,7 @@ export default function AboutUsView() {
                   <div id="bp-1-2" className="blog-post wow fadeInUp">
                     {/* BLOG POST IMAGE */}
                     <div className="blog-post-img mb-35">
-                      <Image
+                      <img
                         className="img-fluid r-16"
                         src="/images/blog/post-2-img.jpg"
                         alt="blog-post-image"
@@ -1409,7 +1408,7 @@ export default function AboutUsView() {
                   <div id="bp-1-3" className="blog-post wow fadeInUp">
                     {/* BLOG POST IMAGE */}
                     <div className="blog-post-img mb-35">
-                      <Image
+                      <img
                         className="img-fluid r-16"
                         src="/images/blog/post-5-img.jpg"
                         alt="blog-post-image"

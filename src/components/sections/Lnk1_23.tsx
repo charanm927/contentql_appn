@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Lnk1_23() {
   return (
     <>
@@ -10,7 +8,7 @@ export default function Lnk1_23() {
             {/* IMAGE BLOCK */}
             <div className="col-md-6">
               <div className="img-block left-column wow fadeInRight">
-                <Image
+                <img
                   className="img-fluid"
                   src="/images/img-07.png"
                   alt="content-image"

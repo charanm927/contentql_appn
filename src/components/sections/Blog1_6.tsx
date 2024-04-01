@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Blog1_6() {
@@ -25,7 +24,7 @@ export default function Blog1_6() {
               <div id="bp-1-1" className="blog-post wow fadeInUp">
                 {/* BLOG POST IMAGE */}
                 <div className="blog-post-img mb-35">
-                  <Image
+                  <img
                     className="img-fluid r-16"
                     src="/images/blog/post-8-img.jpg"
                     alt="blog-post-image"
@@ -72,7 +71,7 @@ export default function Blog1_6() {
               <div id="bp-1-2" className="blog-post wow fadeInUp">
                 {/* BLOG POST IMAGE */}
                 <div className="blog-post-img mb-35">
-                  <Image
+                  <img
                     className="img-fluid r-16"
                     src="/images/blog/post-2-img.jpg"
                     alt="blog-post-image"
@@ -120,7 +119,7 @@ export default function Blog1_6() {
               <div id="bp-1-3" className="blog-post wow fadeInUp">
                 {/* BLOG POST IMAGE */}
                 <div className="blog-post-img mb-35">
-                  <Image
+                  <img
                     className="img-fluid r-16"
                     src="/images/blog/post-5-img.jpg"
                     alt="blog-post-image"

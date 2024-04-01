@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import CardSlider from "../slider/CardSlider";
@@ -292,7 +291,7 @@ function TemplateSearch() {
                             data-wow-delay="0.5s"
                           >
                             <div className="hover-overlay card-view">
-                              <Image
+                              <img
                                 className="img-fluid"
                                 src={template.backgroundImage}
                                 alt="layout-preview"

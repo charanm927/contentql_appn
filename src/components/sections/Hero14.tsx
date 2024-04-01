@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero14() {
   return (
     <>
@@ -58,7 +56,7 @@ export default function Hero14() {
           <div className="row">
             <div className="col">
               <div className="hero-14-img wow fadeInUp">
-                <Image
+                <img
                   className="img-fluid"
                   src="/images/dashboard-02.png"
                   alt="hero-image"

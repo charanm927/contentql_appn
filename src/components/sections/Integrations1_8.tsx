@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Integrations1_8() {
@@ -30,7 +29,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-1.png"
                         alt="brand-logo"
@@ -51,7 +50,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-2.png"
                         alt="brand-logo"
@@ -72,7 +71,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-3.png"
                         alt="brand-logo"
@@ -93,7 +92,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-4.png"
                         alt="brand-logo"
@@ -114,7 +113,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-5.png"
                         alt="brand-logo"
@@ -135,7 +134,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-6.png"
                         alt="brand-logo"
@@ -156,7 +155,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-7.png"
                         alt="brand-logo"
@@ -177,7 +176,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-8.png"
                         alt="brand-logo"
@@ -198,7 +197,7 @@ export default function Integrations1_8() {
                   {/* Icon */}
                   <div className="in_tool-logo-wrap">
                     <div className="in_tool-logo ico-60">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="/images/png_icons/tool-9.png"
                         alt="brand-logo"

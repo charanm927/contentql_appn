@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -66,7 +65,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-1.jpg" alt="review-avatar" />
+                <img src="/images/review-author-1.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -97,7 +96,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-2.jpg" alt="review-avatar" />
+                <img src="/images/review-author-2.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -128,7 +127,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-3.jpg" alt="review-avatar" />
+                <img src="/images/review-author-3.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -159,7 +158,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-4.jpg" alt="review-avatar" />
+                <img src="/images/review-author-4.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -190,7 +189,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-5.jpg" alt="review-avatar" />
+                <img src="/images/review-author-5.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -221,7 +220,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-6.jpg" alt="review-avatar" />
+                <img src="/images/review-author-6.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -252,7 +251,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-7.jpg" alt="review-avatar" />
+                <img src="/images/review-author-7.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -283,7 +282,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <Image src="/images/review-author-8.jpg" alt="review-avatar" />
+                <img src="/images/review-author-8.jpg" alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">

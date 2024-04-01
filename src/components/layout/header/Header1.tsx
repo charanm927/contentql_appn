@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
@@ -26,7 +25,7 @@ export default function Header1({
           {/* MOBILE HEADER */}
           <div className="wsmobileheader clearfix">
             <span className="smllogo">
-              <Image src="/images/logo-pink.png" alt="mobile-logo" />
+              <img src="/images/logo-pink.png" alt="mobile-logo" />
             </span>
             <a
               id="wsnavtoggle"
@@ -42,12 +41,12 @@ export default function Header1({
               {/* HEADER BLACK LOGO */}
               <div className="desktoplogo">
                 <Link href="/" className="logo-black">
-                  <Image
+                  <img
                     className="light-theme-img"
                     src="/images/logo-pink.png"
                     alt="logo"
                   />
-                  <Image
+                  <img
                     className="dark-theme-img"
                     src="/images/logo-pink-white.png"
                     alt="logo"
@@ -57,7 +56,7 @@ export default function Header1({
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
                 <Link href="#hero-1" className="logo-white">
-                  <Image src="/images/logo-white.png" alt="logo" />
+                  <img src="/images/logo-white.png" alt="logo" />
                 </Link>
               </div>
               {/* MAIN MENU */}

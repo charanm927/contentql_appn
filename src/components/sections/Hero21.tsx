@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import VideoPopup from "../elements/VidepPopup";
 
@@ -57,7 +56,7 @@ export default function Hero21() {
                     {/* Play Icon */}
                     <VideoPopup style={1} />
                     {/* Preview Image */}
-                    <Image
+                    <img
                       className="img-fluid"
                       src="/images/tablet-01.png"
                       alt="video-preview"

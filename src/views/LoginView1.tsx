@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function LoginView1() {
@@ -30,7 +29,7 @@ export default function LoginView1() {
                     {/* Google Button */}
                     <div className="col-md-12">
                       <Link href="#" className="btn btn-google ico-left">
-                        <Image
+                        <img
                           src="/images/png_icons/google.png"
                           alt="google-icon"
                         />{" "}

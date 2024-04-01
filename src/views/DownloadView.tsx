@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 
@@ -317,7 +316,7 @@ export default function DownloadView() {
                   {/* BANNER-9 IMAGE */}
                   <div className="col-md-5 col-xl-5">
                     <div className="banner-9-img text-end">
-                      <Image
+                      <img
                         className="img-fluid"
                         src="images/help.png"
                         alt="banner-image"
