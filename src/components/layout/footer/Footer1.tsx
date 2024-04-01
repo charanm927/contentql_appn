@@ -1,5 +1,7 @@
 import Image from "next/image";
-import logoBlack from "public/images/logo-black.png";
+import logoBlack from "/public/images/logo-black.png";
+import logoWhite from "/public/images/logo-white.png";
+
 export default function Footer1() {
   return (
     <>
@@ -16,7 +18,7 @@ export default function Footer1() {
                 />
                 <Image
                   className="footer-logo-dark"
-                  src={logoBlack}
+                  src={logoWhite}
                   alt="footer-logo"
                 />
               </div>

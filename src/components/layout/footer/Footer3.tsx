@@ -1,4 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
+import logoPinkWhite from "/public/images/logo-pink-white.png";
+import logoPink from "/public/images/logo-pink.png";
+
 export default function Footer3() {
   return (
     <>
@@ -9,14 +13,14 @@ export default function Footer3() {
             {/* FOOTER LOGO */}
             <div className="col-xl-3">
               <div className="footer-info">
-                <img
+                <Image
                   className="footer-logo"
-                  src="/images/logo-pink.png"
+                  src={logoPink}
                   alt="footer-logo"
                 />
-                <img
+                <Image
                   className="footer-logo-dark"
-                  src="/images/logo-pink-white.png"
+                  src={logoPinkWhite}
                   alt="footer-logo"
                 />
               </div>
