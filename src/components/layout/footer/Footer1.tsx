@@ -1,3 +1,5 @@
+import Image from "next/image";
+import logoBlack from "public/images/logo-black.png";
 export default function Footer1() {
   return (
     <>
@@ -7,14 +9,14 @@ export default function Footer1() {
             <div className="col-xl-10">
               {/* FOOTER LOGO */}
               <div className="footer-info">
-                <img
+                <Image
                   className="footer-logo"
-                  src="images/logo-black.png"
+                  src={logoBlack}
                   alt="footer-logo"
                 />
-                <img
+                <Image
                   className="footer-logo-dark"
-                  src="images/logo-white.png"
+                  src={logoBlack}
                   alt="footer-logo"
                 />
               </div>
