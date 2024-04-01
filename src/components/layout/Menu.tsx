@@ -104,7 +104,7 @@ export default function Menu() {
 
   return (
     <>
-      <ul className="wsmenu-list nav-theme">
+      <ul aria-required className="wsmenu-list nav-theme">
         {/* DROPDOWN SUB MENU */}
         <li aria-haspopup="true">
           <Link href="#" className="h-link">

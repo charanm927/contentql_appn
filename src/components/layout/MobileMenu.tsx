@@ -21,7 +21,7 @@ export default function MobileMenu() {
   };
   return (
     <>
-      <ul className="wsmenu-list nav-theme">
+      <ul aria-required className="wsmenu-list nav-theme">
         {/* DROPDOWN SUB MENU */}
         {/* <li aria-haspopup="true">
           <span
