@@ -104,9 +104,9 @@ export default function Menu() {
 
   return (
     <>
-      <ul aria-required className="wsmenu-list nav-theme">
+      <ul className="wsmenu-list nav-theme">
         {/* DROPDOWN SUB MENU */}
-        <li aria-haspopup="true">
+        <li>
           <Link href="#" className="h-link">
             Product <span className="wsarrow" />
           </Link>
@@ -130,13 +130,13 @@ export default function Menu() {
           </ul>
         </li>
         {/* SIMPLE NAVIGATION LINK */}
-        <li className="nl-simple" aria-haspopup="true">
+        <li className="nl-simple">
           <Link href="/explore" className="h-link">
             Explore
           </Link>
         </li>
         {/* MEGAMENU */}
-        <li aria-haspopup="true" className="mg_link">
+        <li className="mg_link">
           <Link href="#" className="h-link">
             Resources <span className="wsarrow" />
           </Link>
@@ -191,21 +191,18 @@ export default function Menu() {
         </li>{" "}
         {/* END MEGAMENU */}
         {/* SIMPLE NAVIGATION LINK */}
-        <li
-          className="nl-simple reg-fst-link mobile-last-link"
-          aria-haspopup="true"
-        >
+        <li className="nl-simple reg-fst-link mobile-last-link">
           <Link href="/templates" className="h-link">
             Templates
           </Link>
         </li>
-        <li className="nl-simple" aria-haspopup="true">
+        <li className="nl-simple">
           <Link href="/pricing" className="h-link">
             Pricing
           </Link>
         </li>
         {/* SIGN UP BUTTON */}
-        <li className="nl-simple" aria-haspopup="true">
+        <li className="nl-simple">
           <Link
             href="https://cloud.contentql.io/guest"
             className="btn r-04 btn--theme hover--tra-black last-link"
