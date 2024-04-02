@@ -81,6 +81,8 @@ function TemplatesView() {
                         className="img-fluid"
                         src={template.backgroundImage}
                         alt="layout-preview"
+                        height={1000}
+                        width={1000}
                       />
                       <div className="text-container">
                         <div className="text-wow">
