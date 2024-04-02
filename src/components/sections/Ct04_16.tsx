@@ -1,3 +1,6 @@
+import Image from "next/image";
+import tablet01 from "/public/images/tablet-01.png";
+
 export default function Ct04_16() {
   return (
     <>
@@ -69,9 +72,9 @@ export default function Ct04_16() {
             {/* IMAGE BLOCK */}
             <div className="col-md-6 order-first order-md-2">
               <div className="img-block wow fadeInLeft">
-                <img
+                <Image
                   className="img-fluid"
-                  src="/images/tablet-01.png"
+                  src={tablet01}
                   alt="content-image"
                 />
               </div>

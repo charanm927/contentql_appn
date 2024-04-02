@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -56,7 +57,7 @@ export default function StorySlider() {
           <SwiperSlide key={template.id} className="review-card ">
             <div key={template.id} id="l-1">
               <div className="hover-overlay1 card-view">
-                <img
+                <Image
                   className="img-fluid"
                   src={template.backgroundImage}
                   alt="layout-preview"

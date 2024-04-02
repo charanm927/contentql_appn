@@ -1,6 +1,20 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
+import img16 from "/public/images/img-16.png";
+import team1 from "/public/images/team-1.jpg";
+import team10 from "/public/images/team-10.jpg";
+import team11 from "/public/images/team-11.jpg";
+import team12 from "/public/images/team-12.jpg";
+import team2 from "/public/images/team-2.jpg";
+import team3 from "/public/images/team-3.jpg";
+import team4 from "/public/images/team-4.jpg";
+import team5 from "/public/images/team-5.jpg";
+import team6 from "/public/images/team-6.jpg";
+import team7 from "/public/images/team-7.jpg";
+import team8 from "/public/images/team-8.jpg";
+import team9 from "/public/images/team-9.jpg";
 
 export default function ExpertsView() {
   return (
@@ -35,9 +49,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-1.jpg"
+                            src={team1}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -73,9 +87,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-2.jpg"
+                            src={team2}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -111,9 +125,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-3.jpg"
+                            src={team3}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -147,9 +161,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-4.jpg"
+                            src={team4}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -185,9 +199,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-5.jpg"
+                            src={team5}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -223,9 +237,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-6.jpg"
+                            src={team6}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -261,9 +275,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-7.jpg"
+                            src={team7}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -299,9 +313,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-8.jpg"
+                            src={team8}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -337,9 +351,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-9.jpg"
+                            src={team9}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -378,9 +392,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-10.jpg"
+                            src={team10}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -419,9 +433,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-11.jpg"
+                            src={team11}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -460,9 +474,9 @@ export default function ExpertsView() {
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
-                          <img
+                          <Image
                             className="img-fluid"
-                            src="/images/team-12.jpg"
+                            src={team12}
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -534,9 +548,9 @@ export default function ExpertsView() {
                     {/* BANNER-12 IMAGE */}
                     <div className="col-md-5">
                       <div className="banner-12-img text-center">
-                        <img
+                        <Image
                           className="img-fluid"
-                          src="/images/img-16.png"
+                          src={img16}
                           alt="banner-image"
                         />
                       </div>

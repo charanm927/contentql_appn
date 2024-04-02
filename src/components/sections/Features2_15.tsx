@@ -1,3 +1,11 @@
+import Image from "next/image";
+import f04 from "/public/images/f_04.png";
+import f04Dark from "/public/images/f_04_dark.png";
+import f05 from "/public/images/f_05.png";
+import f05Dark from "/public/images/f_05_dark.png";
+import f08 from "/public/images/f_08.png";
+import f08Dark from "/public/images/f_08_dark.png";
+
 export default function Features2_15() {
   return (
     <>
@@ -11,14 +19,14 @@ export default function Features2_15() {
                 <div className="fbox-2 fb-1 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/f_04.png"
+                      src={f04}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/f_04_dark.png"
+                      src={f04Dark}
                       alt="feature-image"
                     />
                   </div>
@@ -38,14 +46,14 @@ export default function Features2_15() {
                 <div className="fbox-2 fb-2 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/f_08.png"
+                      src={f08}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/f_08_dark.png"
+                      src={f08Dark}
                       alt="feature-image"
                     />
                   </div>
@@ -65,14 +73,14 @@ export default function Features2_15() {
                 <div className="fbox-2 fb-3 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-img gr--whitesmoke h-175">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/f_05.png"
+                      src={f05}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/f_05_dark.png"
+                      src={f05Dark}
                       alt="feature-image"
                     />
                   </div>

@@ -1,4 +1,6 @@
+import Image from "next/image";
 import VideoPopup from "../elements/VidepPopup";
+import dashboard06 from "/public/images/dashboard-06.png";
 
 export default function Lnk2_26() {
   return (
@@ -31,9 +33,9 @@ export default function Lnk2_26() {
                   {/* Play Icon */}
                   <VideoPopup style={1} />
                   {/* Preview Image */}
-                  <img
+                  <Image
                     className="img-fluid"
-                    src="/images/dashboard-06.png"
+                    src={dashboard06}
                     alt="video-preview"
                   />
                 </div>

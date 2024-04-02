@@ -1,4 +1,7 @@
+import Image from "next/image";
 import VideoPopup from "../elements/VidepPopup";
+import dashboard03 from "/public/images/dashboard-03.png";
+import squareLogo from "/public/images/square-logo.png";
 
 export default function Hero23() {
   return (
@@ -11,9 +14,9 @@ export default function Hero23() {
               <div className="hero-23-txt wow fadeInUp">
                 {/* Hero Logo  */}
                 <div className="hero-square-logo">
-                  <img
+                  <Image
                     className="img-fluid"
-                    src="/images/square-logo.png"
+                    src={squareLogo}
                     alt="hero-logo"
                   />
                 </div>
@@ -42,9 +45,9 @@ export default function Hero23() {
                 {/* Play Icon */}
                 <VideoPopup style={1} />
                 {/* Preview Image */}
-                <img
+                <Image
                   className="img-fluid"
-                  src="/images/dashboard-03.png"
+                  src={dashboard03}
                   alt="video-preview"
                 />
               </div>

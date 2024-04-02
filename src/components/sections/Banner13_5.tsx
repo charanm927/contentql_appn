@@ -1,4 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
+import img04 from "/public/images/img-04.png";
+
 export default function Banner13_5() {
   return (
     <>
@@ -35,9 +38,9 @@ export default function Banner13_5() {
                 {/* BANNER-13 IMAGE */}
                 <div className="col-md-5">
                   <div className="banner-13-img text-center">
-                    <img
+                    <Image
                       className="img-fluid"
-                      src="/images/img-04.png"
+                      src={img04}
                       alt="banner-image"
                     />
                   </div>

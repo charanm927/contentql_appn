@@ -1,9 +1,19 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import CounterUp from "../components/elements/CounterUp";
 import VideoPopup from "../components/elements/VidepPopup";
 import Layout from "../components/layout/Layout";
 import Integrations1_8 from "../components/sections/Integrations1_8";
+import dashboard06 from "/public/images/dashboard-06.png";
+import f01 from "/public/images/f_01.png";
+import f01Dark from "/public/images/f_01_dark.png";
+import f02 from "/public/images/f_02.png";
+import f02Dark from "/public/images/f_02_dark.png";
+import f05 from "/public/images/f_05.png";
+import f05Dark from "/public/images/f_05_dark.png";
+import img03 from "/public/images/img-03.png";
+import tablet01 from "/public/images/tablet-01.png";
 
 export default function IntegrationsView() {
   return (
@@ -38,9 +48,9 @@ export default function IntegrationsView() {
                     {/* Play Icon */}
                     <VideoPopup style={2} />
                     {/* Preview Image */}
-                    <img
+                    <Image
                       className="img-fluid"
-                      src="/images/dashboard-06.png"
+                      src={dashboard06}
                       alt="video-preview"
                     />
                   </div>
@@ -172,9 +182,9 @@ export default function IntegrationsView() {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 order-first order-md-2">
                   <div className="img-block right-column wow fadeInLeft">
-                    <img
+                    <Image
                       className="img-fluid"
-                      src="/images/img-03.png"
+                      src={img03}
                       alt="content-image"
                     />
                   </div>
@@ -210,14 +220,14 @@ export default function IntegrationsView() {
                     <div className="fbox-2 fb-1 wow fadeInUp">
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
-                        <img
+                        <Image
                           className="img-fluid light-theme-img"
-                          src="/images/f_01.png"
+                          src={f01}
                           alt="feature-image"
                         />
-                        <img
+                        <Image
                           className="img-fluid dark-theme-img"
-                          src="/images/f_01_dark.png"
+                          src={f01Dark}
                           alt="feature-image"
                         />
                       </div>
@@ -237,14 +247,14 @@ export default function IntegrationsView() {
                     <div className="fbox-2 fb-2 wow fadeInUp">
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
-                        <img
+                        <Image
                           className="img-fluid light-theme-img"
-                          src="/images/f_05.png"
+                          src={f05}
                           alt="feature-image"
                         />
-                        <img
+                        <Image
                           className="img-fluid dark-theme-img"
-                          src="/images/f_05_dark.png"
+                          src={f05Dark}
                           alt="feature-image"
                         />
                       </div>
@@ -264,14 +274,14 @@ export default function IntegrationsView() {
                     <div className="fbox-2 fb-3 wow fadeInUp">
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
-                        <img
+                        <Image
                           className="img-fluid light-theme-img"
-                          src="/images/f_02.png"
+                          src={f02}
                           alt="feature-image"
                         />
-                        <img
+                        <Image
                           className="img-fluid dark-theme-img"
-                          src="/images/f_02_dark.png"
+                          src={f02Dark}
                           alt="feature-image"
                         />
                       </div>
@@ -372,9 +382,9 @@ export default function IntegrationsView() {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 order-first order-md-2">
                   <div className="img-block wow fadeInLeft">
-                    <img
+                    <Image
                       className="img-fluid"
-                      src="/images/tablet-01.png"
+                      src={tablet01}
                       alt="content-image"
                     />
                   </div>

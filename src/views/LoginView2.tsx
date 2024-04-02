@@ -1,5 +1,8 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
+import logoWhite from "/public/images/logo-white.png";
+import google from "/public/images/png_icons/google.png";
 
 export default function LoginView2() {
   return (
@@ -18,9 +21,9 @@ export default function LoginView2() {
                     <div className="col-md-6">
                       <div className="register-page-txt color--white">
                         {/* Logo */}
-                        <img
+                        <Image
                           className="img-fluid"
-                          src="/images/logo-white.png"
+                          src={logoWhite}
                           alt="logo-image"
                         />
                         {/* Title */}
@@ -47,11 +50,8 @@ export default function LoginView2() {
                           {/* Google Button */}
                           <div className="col-md-12">
                             <Link href="#" className="btn btn-google ico-left">
-                              <img
-                                src="/images/png_icons/google.png"
-                                alt="google-icon"
-                              />{" "}
-                              Sign in with Google
+                              <Image src={google} alt="google-icon" /> Sign in
+                              with Google
                             </Link>
                           </div>
                           {/* Login Separator */}

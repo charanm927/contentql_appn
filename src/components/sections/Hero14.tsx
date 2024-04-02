@@ -1,3 +1,6 @@
+import Image from "next/image";
+import dashboard02 from "/public/images/dashboard-02.png";
+
 export default function Hero14() {
   return (
     <>
@@ -56,9 +59,9 @@ export default function Hero14() {
           <div className="row">
             <div className="col">
               <div className="hero-14-img wow fadeInUp">
-                <img
+                <Image
                   className="img-fluid"
-                  src="/images/dashboard-02.png"
+                  src={dashboard02}
                   alt="hero-image"
                 />
               </div>

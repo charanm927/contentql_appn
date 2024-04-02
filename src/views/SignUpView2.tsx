@@ -1,5 +1,7 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
+import google from "/public/images/png_icons/google.png";
 
 export default function SignUpView2() {
   return (
@@ -21,11 +23,8 @@ export default function SignUpView2() {
                           {/* Google Button */}
                           <div className="col-md-12">
                             <Link href="#" className="btn btn-google ico-left">
-                              <img
-                                src="/images/png_icons/google.png"
-                                alt="google-icon"
-                              />{" "}
-                              Sign up with Google
+                              <Image src={google} alt="google-icon" /> Sign up
+                              with Google
                             </Link>
                           </div>
                           {/* Login Separator */}

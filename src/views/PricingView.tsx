@@ -1,8 +1,15 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import BrandSlider2 from "../components/slider/BrandSlider2";
+import am from "/public/images/png_icons/am.png";
+import discover from "/public/images/png_icons/discover.png";
+import jcb from "/public/images/png_icons/jcb.png";
+import paypal from "/public/images/png_icons/paypal.png";
+import shopify from "/public/images/png_icons/shopify.png";
+import visa from "/public/images/png_icons/visa.png";
 
 export default function PricingView() {
   const [isPricing, setPricing] = useState(false);
@@ -539,40 +546,22 @@ export default function PricingView() {
                       {/* Payment Icons */}
                       <ul className="payment-icons ico-45 mt-25">
                         <li>
-                          <img
-                            src="/images/png_icons/visa.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={visa} alt="payment-icon" />
                         </li>
                         <li>
-                          <img
-                            src="/images/png_icons/am.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={am} alt="payment-icon" />
                         </li>
                         <li>
-                          <img
-                            src="/images/png_icons/discover.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={discover} alt="payment-icon" />
                         </li>
                         <li>
-                          <img
-                            src="/images/png_icons/paypal.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={paypal} alt="payment-icon" />
                         </li>
                         <li>
-                          <img
-                            src="/images/png_icons/jcb.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={jcb} alt="payment-icon" />
                         </li>
                         <li>
-                          <img
-                            src="/images/png_icons/shopify.png"
-                            alt="payment-icon"
-                          />
+                          <Image src={shopify} alt="payment-icon" />
                         </li>
                       </ul>
                     </div>

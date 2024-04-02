@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function TemplateDesigns() {
@@ -46,7 +47,7 @@ function TemplateDesigns() {
                 data-wow-delay="0.5s"
               >
                 <div className="hover-overlay card-view">
-                  <img
+                  <Image
                     className="img-fluid"
                     src={template.backgroundImage}
                     alt="layout-preview"

@@ -1,3 +1,9 @@
+import Image from "next/image";
+import f06 from "/public/images/f_01.png";
+import f06Dark from "/public/images/f_01_dark.png";
+import f04 from "/public/images/f_02.png";
+import f04Dark from "/public/images/f_02_dark.png";
+
 export default function Features5_4() {
   return (
     <>
@@ -34,14 +40,14 @@ export default function Features5_4() {
                   </div>
                   {/* Image */}
                   <div className="fbox-5-img order-first order-md-2">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/f_06.png"
+                      src={f06}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/f_06_dark.png"
+                      src={f06Dark}
                       alt="feature-image"
                     />
                   </div>
@@ -53,14 +59,14 @@ export default function Features5_4() {
                 <div className="fbox-5 fb-2 gr--smoke r-16 wow fadeInUp">
                   {/* Image */}
                   <div className="fbox-5-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/f_04.png"
+                      src={f04}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/f_04_dark.png"
+                      src={f04Dark}
                       alt="feature-image"
                     />
                   </div>

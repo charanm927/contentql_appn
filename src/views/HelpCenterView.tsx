@@ -1,7 +1,9 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
+import help from "/public/images/help.png";
 
 export default function HelpCenterView() {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -1102,9 +1104,9 @@ export default function HelpCenterView() {
                   {/* BANNER-9 IMAGE */}
                   <div className="col-md-5 col-xl-5">
                     <div className="banner-9-img text-end">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/images/help.png"
+                        src={help}
                         alt="banner-image"
                       />
                     </div>

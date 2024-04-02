@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import VideoPopup from "../elements/VidepPopup";
+import dashboard04 from "/public/images/dashboard-04.png";
 
 export default function Hero10() {
   return (
@@ -40,9 +42,9 @@ export default function Hero10() {
             {/* HERO IMAGE */}
             <div className="col-md-6">
               <div className="hero-10-img wow fadeInLeft">
-                <img
+                <Image
                   className="img-fluid"
-                  src="/images/dashboard-04.png"
+                  src={dashboard04}
                   alt="hero-image"
                 />
               </div>

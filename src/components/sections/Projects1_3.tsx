@@ -1,4 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
+import project02 from "/public/images/projects/project-02.jpg";
+import project03 from "/public/images/projects/project-03.jpg";
+import project04 from "/public/images/projects/project-04.jpg";
+import project05 from "/public/images/projects/project-05.jpg";
 
 export default function Projects1_3() {
   return (
@@ -30,9 +35,9 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/images/projects/project-05.jpg"
+                        src={project05}
                         alt="project-preview"
                       />
                       <div className="item-overlay" />
@@ -56,9 +61,9 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/images/projects/project-02.jpg"
+                        src={project02}
                         alt="project-preview"
                       />
                       <div className="item-overlay" />
@@ -82,9 +87,9 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/images/projects/project-03.jpg"
+                        src={project03}
                         alt="project-preview"
                       />
                       <div className="item-overlay" />
@@ -108,9 +113,9 @@ export default function Projects1_3() {
                   <div className="project-preview r-10">
                     {/* Project Preview */}
                     <div className="hover-overlay">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="/images/projects/project-04.jpg"
+                        src={project04}
                         alt="project-preview"
                       />
                       <div className="item-overlay" />

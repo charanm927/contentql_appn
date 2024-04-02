@@ -1,5 +1,14 @@
+import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import reviewAuthor1 from "/public/images/review-author-1.jpg";
+import reviewAuthor2 from "/public/images/review-author-2.jpg";
+import reviewAuthor3 from "/public/images/review-author-3.jpg";
+import reviewAuthor4 from "/public/images/review-author-4.jpg";
+import reviewAuthor5 from "/public/images/review-author-5.jpg";
+import reviewAuthor6 from "/public/images/review-author-6.jpg";
+import reviewAuthor7 from "/public/images/review-author-7.jpg";
+import reviewAuthor8 from "/public/images/review-author-8.jpg";
 
 const swiperOptions = {
   modules: [Autoplay],
@@ -65,7 +74,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-1.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor1} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -96,7 +105,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-2.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor2} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -127,7 +136,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-3.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor3} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -158,7 +167,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-4.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor4} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -189,7 +198,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-5.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor5} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -220,7 +229,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-6.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor6} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -251,7 +260,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-7.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor7} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">
@@ -282,7 +291,7 @@ export default function ReviewSlider1() {
             <div className="author-data clearfix">
               {/* Avatar */}
               <div className="review-avatar">
-                <img src="/images/review-author-8.jpg" alt="review-avatar" />
+                <Image src={reviewAuthor8} alt="review-avatar" />
               </div>
               {/* Data */}
               <div className="review-author">

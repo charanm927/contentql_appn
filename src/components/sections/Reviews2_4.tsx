@@ -1,3 +1,9 @@
+import Image from "next/image";
+import reviewAuthor1 from "/public/images/review-author-1.jpg";
+import reviewAuthor2 from "/public/images/review-author-2.jpg";
+import reviewAuthor5 from "/public/images/review-author-5.jpg";
+import reviewAuthor8 from "/public/images/review-author-8.jpg";
+
 export default function Reviews2_4() {
   return (
     <>
@@ -41,10 +47,7 @@ export default function Reviews2_4() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-1.jpg"
-                          alt="review-avatar"
-                        />
+                        <Image src={reviewAuthor1} alt="review-avatar" />
                       </div>
                       {/* Data */}
                       <div className="review-author">
@@ -81,10 +84,7 @@ export default function Reviews2_4() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-2.jpg"
-                          alt="review-avatar"
-                        />
+                        <Image src={reviewAuthor2} alt="review-avatar" />
                       </div>
                       {/* Data */}
                       <div className="review-author">
@@ -121,10 +121,7 @@ export default function Reviews2_4() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-5.jpg"
-                          alt="review-avatar"
-                        />
+                        <Image src={reviewAuthor5} alt="review-avatar" />
                       </div>
                       {/* Data */}
                       <div className="review-author">
@@ -160,10 +157,7 @@ export default function Reviews2_4() {
                     <div className="author-data clearfix">
                       {/* Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/images/review-author-8.jpg"
-                          alt="review-avatar"
-                        />
+                        <Image src={reviewAuthor8} alt="review-avatar" />
                       </div>
                       {/* Data */}
                       <div className="review-author">

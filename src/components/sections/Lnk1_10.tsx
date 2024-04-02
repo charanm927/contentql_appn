@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import dashboard05 from "/public/images/dashboard-05.png";
 
 export default function Lnk1_10() {
   return (
@@ -39,9 +41,9 @@ export default function Lnk1_10() {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 col-lg-7 order-first order-md-2">
                   <div className="bc-3-img wow fadeInLeft">
-                    <img
+                    <Image
                       className="img-fluid"
-                      src="/images/dashboard-05.png"
+                      src={dashboard05}
                       alt="content-image"
                     />
                   </div>

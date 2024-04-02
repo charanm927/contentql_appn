@@ -1,3 +1,11 @@
+import Image from "next/image";
+import brand21White from "/public/images/brand-21-white.png";
+import brand21 from "/public/images/brand-21.png";
+import brand22White from "/public/images/brand-22-white.png";
+import brand22 from "/public/images/brand-22.png";
+import brand23White from "/public/images/brand-23-white.png";
+import brand23 from "/public/images/brand-23.png";
+
 export default function Rating1_6() {
   return (
     <>
@@ -21,14 +29,14 @@ export default function Rating1_6() {
                 <div id="rb-1-1" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/brand-21.png"
+                      src={brand21}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/brand-21-white.png"
+                      src={brand21White}
                       alt="feature-image"
                     />
                   </div>
@@ -48,14 +56,14 @@ export default function Rating1_6() {
                 <div id="rb-1-2" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/brand-22.png"
+                      src={brand22}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/brand-22-white.png"
+                      src={brand22White}
                       alt="feature-image"
                     />
                   </div>
@@ -75,14 +83,14 @@ export default function Rating1_6() {
                 <div id="rb-1-3" className="rbox-1">
                   {/* Brand Logo */}
                   <div className="rbox-1-img">
-                    <img
+                    <Image
                       className="img-fluid light-theme-img"
-                      src="/images/brand-23.png"
+                      src={brand23}
                       alt="feature-image"
                     />
-                    <img
+                    <Image
                       className="img-fluid dark-theme-img"
-                      src="/images/brand-23-white.png"
+                      src={brand23White}
                       alt="feature-image"
                     />
                   </div>
